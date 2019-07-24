@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E263340CF208BAEBE283D5 /* libPods-Voya.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141A752981E06F7B883A44C /* libPods-Voya.a */; };
+		D727EDEA2253AF70005236F7 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727EDE92253AF70005236F7 /* BluetoothManager.swift */; };
+		D73E6000225790B1007EBDEE /* FStopUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73E5FFF225790B1007EBDEE /* FStopUtilities.swift */; };
+		D7452F752250FCE3002A8C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7452F742250FCE3002A8C80 /* AppDelegate.swift */; };
+		D7452F772250FCE3002A8C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7452F762250FCE3002A8C80 /* ViewController.swift */; };
+		D7452F7A2250FCE3002A8C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7452F782250FCE3002A8C80 /* Main.storyboard */; };
+		D7452F7C2250FCE6002A8C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7452F7B2250FCE6002A8C80 /* Assets.xcassets */; };
+		D7452F7F2250FCE6002A8C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7452F7D2250FCE6002A8C80 /* LaunchScreen.storyboard */; };
+		D7D1371E225246C600F36E82 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D1371C225245FF00F36E82 /* MZTimerLabel.framework */; };
+		D7D1371F225246C600F36E82 /* MZTimerLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7D1371C225245FF00F36E82 /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D7DB11DF225FF3A00022769E /* long_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7DB11DE225FF39F0022769E /* long_beep.mp3 */; };
+		D7E53AFF225DDC8E003C8045 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E53AFE225DDC8E003C8045 /* Extensions.swift */; };
+		D7E53B02225DDEBD003C8045 /* simple_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7E53B01225DDEBD003C8045 /* simple_beep.mp3 */; };
+		D7E53B04225DEE7C003C8045 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E53B03225DEE7C003C8045 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7D13720225246C600F36E82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D7D1371F225246C600F36E82 /* MZTimerLabel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7141A752981E06F7B883A44C /* libPods-Voya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D727EDE92253AF70005236F7 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		D73E5FFF225790B1007EBDEE /* FStopUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FStopUtilities.swift; sourceTree = "<group>"; };
+		D7452F712250FCE3002A8C80 /* Voya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7452F742250FCE3002A8C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7452F762250FCE3002A8C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7452F792250FCE3002A8C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7452F7B2250FCE6002A8C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7452F7E2250FCE6002A8C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7452F802250FCE6002A8C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D1371C225245FF00F36E82 /* MZTimerLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MZTimerLabel.framework; path = Carthage/Build/iOS/MZTimerLabel.framework; sourceTree = "<group>"; };
+		D7DB11DE225FF39F0022769E /* long_beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = long_beep.mp3; sourceTree = "<group>"; };
+		D7E53AFE225DDC8E003C8045 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D7E53B01225DDEBD003C8045 /* simple_beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = simple_beep.mp3; sourceTree = "<group>"; };
+		D7E53B03225DEE7C003C8045 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DD34B60A0ED7ABB507F32ED4 /* Pods-Voya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voya.debug.xcconfig"; path = "Target Support Files/Pods-Voya/Pods-Voya.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEF2EFB9F425CBE87C12A26 /* Pods-Voya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voya.release.xcconfig"; path = "Target Support Files/Pods-Voya/Pods-Voya.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7452F6E2250FCE3002A8C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D1371E225246C600F36E82 /* MZTimerLabel.framework in Frameworks */,
+				19E263340CF208BAEBE283D5 /* libPods-Voya.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C91130624701B770E6D2A5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD34B60A0ED7ABB507F32ED4 /* Pods-Voya.debug.xcconfig */,
+				DDEF2EFB9F425CBE87C12A26 /* Pods-Voya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61EA95B24CAA51A9627B52FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7D1371C225245FF00F36E82 /* MZTimerLabel.framework */,
+				7141A752981E06F7B883A44C /* libPods-Voya.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7452F682250FCE3002A8C80 = {
+			isa = PBXGroup;
+			children = (
+				D7452F732250FCE3002A8C80 /* Voya */,
+				D7452F722250FCE3002A8C80 /* Products */,
+				0C91130624701B770E6D2A5F /* Pods */,
+				61EA95B24CAA51A9627B52FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7452F722250FCE3002A8C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7452F712250FCE3002A8C80 /* Voya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7452F732250FCE3002A8C80 /* Voya */ = {
+			isa = PBXGroup;
+			children = (
+				D7E53B00225DDEBD003C8045 /* sounds */,
+				D7452F742250FCE3002A8C80 /* AppDelegate.swift */,
+				D7452F762250FCE3002A8C80 /* ViewController.swift */,
+				D7452F782250FCE3002A8C80 /* Main.storyboard */,
+				D7452F7B2250FCE6002A8C80 /* Assets.xcassets */,
+				D7452F7D2250FCE6002A8C80 /* LaunchScreen.storyboard */,
+				D7452F802250FCE6002A8C80 /* Info.plist */,
+				D727EDE92253AF70005236F7 /* BluetoothManager.swift */,
+				D73E5FFF225790B1007EBDEE /* FStopUtilities.swift */,
+				D7E53AFE225DDC8E003C8045 /* Extensions.swift */,
+				D7E53B03225DEE7C003C8045 /* Utils.swift */,
+			);
+			path = Voya;
+			sourceTree = "<group>";
+		};
+		D7E53B00225DDEBD003C8045 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D7DB11DE225FF39F0022769E /* long_beep.mp3 */,
+				D7E53B01225DDEBD003C8045 /* simple_beep.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7452F702250FCE3002A8C80 /* Voya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7452F832250FCE6002A8C80 /* Build configuration list for PBXNativeTarget "Voya" */;
+			buildPhases = (
+				07FDF9DB7EE54A017A31B6CD /* [CP] Check Pods Manifest.lock */,
+				D7452F6D2250FCE3002A8C80 /* Sources */,
+				D7452F6E2250FCE3002A8C80 /* Frameworks */,
+				D7452F6F2250FCE3002A8C80 /* Resources */,
+				D7D13720225246C600F36E82 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voya;
+			productName = Voya;
+			productReference = D7452F712250FCE3002A8C80 /* Voya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7452F692250FCE3002A8C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yaakov;
+				TargetAttributes = {
+					D7452F702250FCE3002A8C80 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D7452F6C2250FCE3002A8C80 /* Build configuration list for PBXProject "Voya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7452F682250FCE3002A8C80;
+			productRefGroup = D7452F722250FCE3002A8C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7452F702250FCE3002A8C80 /* Voya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7452F6F2250FCE3002A8C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7452F7F2250FCE6002A8C80 /* LaunchScreen.storyboard in Resources */,
+				D7E53B02225DDEBD003C8045 /* simple_beep.mp3 in Resources */,
+				D7DB11DF225FF3A00022769E /* long_beep.mp3 in Resources */,
+				D7452F7C2250FCE6002A8C80 /* Assets.xcassets in Resources */,
+				D7452F7A2250FCE3002A8C80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07FDF9DB7EE54A017A31B6CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Voya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7452F6D2250FCE3002A8C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E53AFF225DDC8E003C8045 /* Extensions.swift in Sources */,
+				D727EDEA2253AF70005236F7 /* BluetoothManager.swift in Sources */,
+				D7452F772250FCE3002A8C80 /* ViewController.swift in Sources */,
+				D7452F752250FCE3002A8C80 /* AppDelegate.swift in Sources */,
+				D73E6000225790B1007EBDEE /* FStopUtilities.swift in Sources */,
+				D7E53B04225DEE7C003C8045 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7452F782250FCE3002A8C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7452F792250FCE3002A8C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7452F7D2250FCE6002A8C80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7452F7E2250FCE6002A8C80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7452F812250FCE6002A8C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7452F822250FCE6002A8C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7452F842250FCE6002A8C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD34B60A0ED7ABB507F32ED4 /* Pods-Voya.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9GLKXP4499;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Voya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunbit.wildcard.Voya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sunbit Dev Wildcard";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7452F852250FCE6002A8C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEF2EFB9F425CBE87C12A26 /* Pods-Voya.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9GLKXP4499;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Voya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunbit.wildcard.Voya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Sunbit Dev Wildcard";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7452F6C2250FCE3002A8C80 /* Build configuration list for PBXProject "Voya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7452F812250FCE6002A8C80 /* Debug */,
+				D7452F822250FCE6002A8C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7452F832250FCE6002A8C80 /* Build configuration list for PBXNativeTarget "Voya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7452F842250FCE6002A8C80 /* Debug */,
+				D7452F852250FCE6002A8C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7452F692250FCE3002A8C80 /* Project object */;
+}

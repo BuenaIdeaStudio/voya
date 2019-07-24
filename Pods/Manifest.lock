@@ -1,0 +1,16 @@
+PODS:
+  - MZTimerLabel (0.5.4)
+
+DEPENDENCIES:
+  - MZTimerLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MZTimerLabel
+
+SPEC CHECKSUMS:
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+
+PODFILE CHECKSUM: 83d927eb0805cc4c42898f782b1982c593cfae5c
+
+COCOAPODS: 1.6.1
