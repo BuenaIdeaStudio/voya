@@ -5,7 +5,7 @@ DEPENDENCIES:
   - MZTimerLabel
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - MZTimerLabel
 
 SPEC CHECKSUMS:
@@ -13,4 +13,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 83d927eb0805cc4c42898f782b1982c593cfae5c
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.11.2

@@ -3,51 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DF3132560669FFCDD61236046337EE1 /* MZTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B434AD387B6716459539496D760F668 /* MZTimerLabel-dummy.m */; };
-		B430FBE07882D184976FAC3B8C063F68 /* Pods-Voya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF48790F4518ED0942981358D93D2D2B /* Pods-Voya-dummy.m */; };
-		DAFDC5B7560E66F36DFB2A7C028FC6B3 /* MZTimerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0A380829BB870248E267D2669BEEA0 /* MZTimerLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF999F29FF2E3F7ABFED1643F16FFD9D /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E9EAFB6B75E16875C97360142D118 /* MZTimerLabel.m */; };
+		7E5E183DE1744A129247BD410D89130A /* MZTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0286023781D674C74EDD8441C07657 /* MZTimerLabel-dummy.m */; };
+		96AFC1CD24045158C9BAC02ED5B393BC /* MZTimerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 65362192486AC9A898C553F799A8593B /* MZTimerLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE32004038AE07612E90FDA105C76847 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2456605BDACAEC0F5BEEDCCD18B956 /* MZTimerLabel.m */; };
+		F4F6B36ADEE77DE13963F3C19D1AAC4A /* Pods-Voya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEC8E5B1A8EC125A64891A1FF939122 /* Pods-Voya-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E862868C89C88C4971E3263BED7C746A /* PBXContainerItemProxy */ = {
+		A4836681D5C1F1AF6C0360C9CAD5A152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E883A0699EE6DCC802AE0F337BB66C5F;
+			remoteGlobalIDString = 8136C2C6F8BD7044AAE2D1C409E644A4;
 			remoteInfo = MZTimerLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		213E9EAFB6B75E16875C97360142D118 /* MZTimerLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = MZTimerLabel/MZTimerLabel.m; sourceTree = "<group>"; };
-		3B0A380829BB870248E267D2669BEEA0 /* MZTimerLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTimerLabel.h; path = MZTimerLabel/MZTimerLabel.h; sourceTree = "<group>"; };
-		59B38C4640AB868E0FC26CFA4BFE3ACF /* libPods-Voya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F158FED3E6861C1347DACCCCD8D4D6C /* libMZTimerLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMZTimerLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		624CFCD0B2BD5F8682C58A50B65F3EDA /* Pods-Voya-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Voya-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B434AD387B6716459539496D760F668 /* MZTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZTimerLabel-dummy.m"; sourceTree = "<group>"; };
+		1444CD6D2FF247E40F1B3823B8AB4545 /* MZTimerLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZTimerLabel-prefix.pch"; sourceTree = "<group>"; };
+		1D2456605BDACAEC0F5BEEDCCD18B956 /* MZTimerLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = MZTimerLabel/MZTimerLabel.m; sourceTree = "<group>"; };
+		2577047932F6484F9E7C25684DB83C88 /* MZTimerLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZTimerLabel.debug.xcconfig; sourceTree = "<group>"; };
+		26D664052ED922B76096D6FCF605FCB2 /* Pods-Voya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Voya.debug.xcconfig"; sourceTree = "<group>"; };
+		2A04A52AA3F2C63605B6203B8738FB77 /* Pods-Voya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Voya.release.xcconfig"; sourceTree = "<group>"; };
+		4323229C8F4DE95ED58CC5FF0840E246 /* libPods-Voya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4920F5D836ADA07587B6CAE6FAA92BAA /* MZTimerLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZTimerLabel.release.xcconfig; sourceTree = "<group>"; };
+		5715B9670A84D49CAEE81B6B9B4C8686 /* libMZTimerLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMZTimerLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0286023781D674C74EDD8441C07657 /* MZTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZTimerLabel-dummy.m"; sourceTree = "<group>"; };
+		65362192486AC9A898C553F799A8593B /* MZTimerLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTimerLabel.h; path = MZTimerLabel/MZTimerLabel.h; sourceTree = "<group>"; };
+		725B8DD310E084AEEC14A29D0ED6C196 /* Pods-Voya-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Voya-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B9E72D04750755B32274B6ABE89158A0 /* MZTimerLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZTimerLabel.xcconfig; sourceTree = "<group>"; };
-		CEB253CBA41A2E056AAF8CA39487AA08 /* Pods-Voya-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Voya-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1237FB26209A31BBC543EAF17083266 /* MZTimerLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZTimerLabel-prefix.pch"; sourceTree = "<group>"; };
-		EF48790F4518ED0942981358D93D2D2B /* Pods-Voya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Voya-dummy.m"; sourceTree = "<group>"; };
-		F02F7C0D0FD0AA37034739C1D0DD9364 /* Pods-Voya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Voya.debug.xcconfig"; sourceTree = "<group>"; };
-		F851FD8242DA4F2BCF5B8C1B4883D431 /* Pods-Voya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Voya.release.xcconfig"; sourceTree = "<group>"; };
+		DAEC8E5B1A8EC125A64891A1FF939122 /* Pods-Voya-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Voya-dummy.m"; sourceTree = "<group>"; };
+		F9863E322AADF942C9AB6595D141CD0C /* Pods-Voya-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Voya-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C6A39BCF1FFA1C8E2726416050A548DC /* Frameworks */ = {
+		8DCB27194929213228DC5F21D09D6D43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEE9F5E374FAF89FD061C2BED687786C /* Frameworks */ = {
+		F9FD0AFB24E7CAE03A27D9167DD09E2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,49 +61,51 @@
 		23001FF6D17682B2A112C6D7FDB48B77 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				524F1C2B77F31031BFD570785639068C /* Pods-Voya */,
+				7D43B08BA6B82FA8838E958163296EE5 /* Pods-Voya */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2C1239D10F79C264961F85ABCB49069C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A0286023781D674C74EDD8441C07657 /* MZTimerLabel-dummy.m */,
+				1444CD6D2FF247E40F1B3823B8AB4545 /* MZTimerLabel-prefix.pch */,
+				2577047932F6484F9E7C25684DB83C88 /* MZTimerLabel.debug.xcconfig */,
+				4920F5D836ADA07587B6CAE6FAA92BAA /* MZTimerLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZTimerLabel";
 			sourceTree = "<group>";
 		};
 		36883B38708AE72879FC3C4D2F15AB30 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C084B7BE998125921ED8107F8AE737EF /* MZTimerLabel */,
+				FA6FDFC46835A0A2F5527936281985ED /* MZTimerLabel */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		524F1C2B77F31031BFD570785639068C /* Pods-Voya */ = {
+		69D589A691F87681014BAE7B6BE7019A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEB253CBA41A2E056AAF8CA39487AA08 /* Pods-Voya-acknowledgements.markdown */,
-				624CFCD0B2BD5F8682C58A50B65F3EDA /* Pods-Voya-acknowledgements.plist */,
-				EF48790F4518ED0942981358D93D2D2B /* Pods-Voya-dummy.m */,
-				F02F7C0D0FD0AA37034739C1D0DD9364 /* Pods-Voya.debug.xcconfig */,
-				F851FD8242DA4F2BCF5B8C1B4883D431 /* Pods-Voya.release.xcconfig */,
-			);
-			name = "Pods-Voya";
-			path = "Target Support Files/Pods-Voya";
-			sourceTree = "<group>";
-		};
-		9E15EC0B13CA848BAEA48755DB3BF75D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5F158FED3E6861C1347DACCCCD8D4D6C /* libMZTimerLabel.a */,
-				59B38C4640AB868E0FC26CFA4BFE3ACF /* libPods-Voya.a */,
+				5715B9670A84D49CAEE81B6B9B4C8686 /* libMZTimerLabel.a */,
+				4323229C8F4DE95ED58CC5FF0840E246 /* libPods-Voya.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C084B7BE998125921ED8107F8AE737EF /* MZTimerLabel */ = {
+		7D43B08BA6B82FA8838E958163296EE5 /* Pods-Voya */ = {
 			isa = PBXGroup;
 			children = (
-				3B0A380829BB870248E267D2669BEEA0 /* MZTimerLabel.h */,
-				213E9EAFB6B75E16875C97360142D118 /* MZTimerLabel.m */,
-				D0A2339B6E91222BC1D8051F20A469C9 /* Support Files */,
+				F9863E322AADF942C9AB6595D141CD0C /* Pods-Voya-acknowledgements.markdown */,
+				725B8DD310E084AEEC14A29D0ED6C196 /* Pods-Voya-acknowledgements.plist */,
+				DAEC8E5B1A8EC125A64891A1FF939122 /* Pods-Voya-dummy.m */,
+				26D664052ED922B76096D6FCF605FCB2 /* Pods-Voya.debug.xcconfig */,
+				2A04A52AA3F2C63605B6203B8738FB77 /* Pods-Voya.release.xcconfig */,
 			);
-			path = MZTimerLabel;
+			name = "Pods-Voya";
+			path = "Target Support Files/Pods-Voya";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -111,20 +114,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				36883B38708AE72879FC3C4D2F15AB30 /* Pods */,
-				9E15EC0B13CA848BAEA48755DB3BF75D /* Products */,
+				69D589A691F87681014BAE7B6BE7019A /* Products */,
 				23001FF6D17682B2A112C6D7FDB48B77 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0A2339B6E91222BC1D8051F20A469C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9E72D04750755B32274B6ABE89158A0 /* MZTimerLabel.xcconfig */,
-				6B434AD387B6716459539496D760F668 /* MZTimerLabel-dummy.m */,
-				D1237FB26209A31BBC543EAF17083266 /* MZTimerLabel-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MZTimerLabel";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -134,52 +126,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA6FDFC46835A0A2F5527936281985ED /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				65362192486AC9A898C553F799A8593B /* MZTimerLabel.h */,
+				1D2456605BDACAEC0F5BEEDCCD18B956 /* MZTimerLabel.m */,
+				2C1239D10F79C264961F85ABCB49069C /* Support Files */,
+			);
+			path = MZTimerLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		951F947B6AD1B87FA07A7E50FD9B86FA /* Headers */ = {
+		2CC70D5C011FC983CC9F0B9FF8710D1D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8F8D8EB46BF6C965BDD574B53718DC2 /* Headers */ = {
+		C31C52720201C58D71DAAE764102CD22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFDC5B7560E66F36DFB2A7C028FC6B3 /* MZTimerLabel.h in Headers */,
+				96AFC1CD24045158C9BAC02ED5B393BC /* MZTimerLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7CFE741799A33BC5FE8FD2F5562505D6 /* Pods-Voya */ = {
+		8136C2C6F8BD7044AAE2D1C409E644A4 /* MZTimerLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E927057793FB9276F2AD0495460F526 /* Build configuration list for PBXNativeTarget "Pods-Voya" */;
+			buildConfigurationList = 3BCED39FCEBAD6E1E9502CD1A59A212E /* Build configuration list for PBXNativeTarget "MZTimerLabel" */;
 			buildPhases = (
-				951F947B6AD1B87FA07A7E50FD9B86FA /* Headers */,
-				418FCC95327B5CC2B197D09F44B28D07 /* Sources */,
-				DEE9F5E374FAF89FD061C2BED687786C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA226ED2643BC5E4892414A4C48DA2AE /* PBXTargetDependency */,
-			);
-			name = "Pods-Voya";
-			productName = "Pods-Voya";
-			productReference = 59B38C4640AB868E0FC26CFA4BFE3ACF /* libPods-Voya.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E883A0699EE6DCC802AE0F337BB66C5F /* MZTimerLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54CB489C08A938C69F90FE961768A268 /* Build configuration list for PBXNativeTarget "MZTimerLabel" */;
-			buildPhases = (
-				D8F8D8EB46BF6C965BDD574B53718DC2 /* Headers */,
-				A7196D2348BE4B2D0582B42CE3219717 /* Sources */,
-				C6A39BCF1FFA1C8E2726416050A548DC /* Frameworks */,
+				C31C52720201C58D71DAAE764102CD22 /* Headers */,
+				D0971D218D24733B868B734C948D6F2B /* Sources */,
+				F9FD0AFB24E7CAE03A27D9167DD09E2E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,7 +171,25 @@
 			);
 			name = MZTimerLabel;
 			productName = MZTimerLabel;
-			productReference = 5F158FED3E6861C1347DACCCCD8D4D6C /* libMZTimerLabel.a */;
+			productReference = 5715B9670A84D49CAEE81B6B9B4C8686 /* libMZTimerLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B1C7847F13CB7A0E65FD40FC07816B7D /* Pods-Voya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A29D5322565E6E75F337075761057C /* Build configuration list for PBXNativeTarget "Pods-Voya" */;
+			buildPhases = (
+				2CC70D5C011FC983CC9F0B9FF8710D1D /* Headers */,
+				19AF7CB4C48CFF67B4AEA5C67E8964F2 /* Sources */,
+				8DCB27194929213228DC5F21D09D6D43 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1A6D2598C0801361CCD0D7E250A8D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Voya";
+			productName = "Pods-Voya";
+			productReference = 4323229C8F4DE95ED58CC5FF0840E246 /* libPods-Voya.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -196,59 +198,81 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9E15EC0B13CA848BAEA48755DB3BF75D /* Products */;
+			productRefGroup = 69D589A691F87681014BAE7B6BE7019A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E883A0699EE6DCC802AE0F337BB66C5F /* MZTimerLabel */,
-				7CFE741799A33BC5FE8FD2F5562505D6 /* Pods-Voya */,
+				8136C2C6F8BD7044AAE2D1C409E644A4 /* MZTimerLabel */,
+				B1C7847F13CB7A0E65FD40FC07816B7D /* Pods-Voya */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		418FCC95327B5CC2B197D09F44B28D07 /* Sources */ = {
+		19AF7CB4C48CFF67B4AEA5C67E8964F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B430FBE07882D184976FAC3B8C063F68 /* Pods-Voya-dummy.m in Sources */,
+				F4F6B36ADEE77DE13963F3C19D1AAC4A /* Pods-Voya-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7196D2348BE4B2D0582B42CE3219717 /* Sources */ = {
+		D0971D218D24733B868B734C948D6F2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF3132560669FFCDD61236046337EE1 /* MZTimerLabel-dummy.m in Sources */,
-				EF999F29FF2E3F7ABFED1643F16FFD9D /* MZTimerLabel.m in Sources */,
+				DE32004038AE07612E90FDA105C76847 /* MZTimerLabel.m in Sources */,
+				7E5E183DE1744A129247BD410D89130A /* MZTimerLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DA226ED2643BC5E4892414A4C48DA2AE /* PBXTargetDependency */ = {
+		0A1A6D2598C0801361CCD0D7E250A8D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZTimerLabel;
-			target = E883A0699EE6DCC802AE0F337BB66C5F /* MZTimerLabel */;
-			targetProxy = E862868C89C88C4971E3263BED7C746A /* PBXContainerItemProxy */;
+			target = 8136C2C6F8BD7044AAE2D1C409E644A4 /* MZTimerLabel */;
+			targetProxy = A4836681D5C1F1AF6C0360C9CAD5A152 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		241BA309B653BEA86E6036FB091D6CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A04A52AA3F2C63605B6203B8738FB77 /* Pods-Voya.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,6 +299,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -297,43 +322,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		64F5F4AF389F0031BA1D92C99ED212D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E72D04750755B32274B6ABE89158A0 /* MZTimerLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MZTimerLabel/MZTimerLabel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MZTimerLabel;
-				PRODUCT_NAME = MZTimerLabel;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,6 +361,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -385,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -393,21 +395,20 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B0D42F34A1F342320D5AC02ECC740704 /* Debug */ = {
+		BDF250DF0558CC9BC0914EA8640E655A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E72D04750755B32274B6ABE89158A0 /* MZTimerLabel.xcconfig */;
+			baseConfigurationReference = 2577047932F6484F9E7C25684DB83C88 /* MZTimerLabel.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MZTimerLabel/MZTimerLabel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -422,40 +423,40 @@
 			};
 			name = Debug;
 		};
-		C29B94B99D1810E2A87F8C7D9010CAB3 /* Release */ = {
+		DD5D8992A36E3BD547C5E4122ED2181F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F851FD8242DA4F2BCF5B8C1B4883D431 /* Pods-Voya.release.xcconfig */;
+			baseConfigurationReference = 4920F5D836ADA07587B6CAE6FAA92BAA /* MZTimerLabel.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/MZTimerLabel/MZTimerLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZTimerLabel;
+				PRODUCT_NAME = MZTimerLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E7B03CD308F3ECCEB5B8051C325C8721 /* Debug */ = {
+		F73E4E6E0B252D62FEE6174D05B894F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F02F7C0D0FD0AA37034739C1D0DD9364 /* Pods-Voya.debug.xcconfig */;
+			baseConfigurationReference = 26D664052ED922B76096D6FCF605FCB2 /* Pods-Voya.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -470,11 +471,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E927057793FB9276F2AD0495460F526 /* Build configuration list for PBXNativeTarget "Pods-Voya" */ = {
+		3BCED39FCEBAD6E1E9502CD1A59A212E /* Build configuration list for PBXNativeTarget "MZTimerLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7B03CD308F3ECCEB5B8051C325C8721 /* Debug */,
-				C29B94B99D1810E2A87F8C7D9010CAB3 /* Release */,
+				BDF250DF0558CC9BC0914EA8640E655A /* Debug */,
+				DD5D8992A36E3BD547C5E4122ED2181F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -482,17 +483,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54CB489C08A938C69F90FE961768A268 /* Build configuration list for PBXNativeTarget "MZTimerLabel" */ = {
+		E5A29D5322565E6E75F337075761057C /* Build configuration list for PBXNativeTarget "Pods-Voya" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0D42F34A1F342320D5AC02ECC740704 /* Debug */,
-				64F5F4AF389F0031BA1D92C99ED212D7 /* Release */,
+				F73E4E6E0B252D62FEE6174D05B894F5 /* Debug */,
+				241BA309B653BEA86E6036FB091D6CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

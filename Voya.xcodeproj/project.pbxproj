@@ -15,27 +15,11 @@
 		D7452F7A2250FCE3002A8C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7452F782250FCE3002A8C80 /* Main.storyboard */; };
 		D7452F7C2250FCE6002A8C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7452F7B2250FCE6002A8C80 /* Assets.xcassets */; };
 		D7452F7F2250FCE6002A8C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7452F7D2250FCE6002A8C80 /* LaunchScreen.storyboard */; };
-		D7D1371E225246C600F36E82 /* MZTimerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D1371C225245FF00F36E82 /* MZTimerLabel.framework */; };
-		D7D1371F225246C600F36E82 /* MZTimerLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7D1371C225245FF00F36E82 /* MZTimerLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D7DB11DF225FF3A00022769E /* long_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7DB11DE225FF39F0022769E /* long_beep.mp3 */; };
 		D7E53AFF225DDC8E003C8045 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E53AFE225DDC8E003C8045 /* Extensions.swift */; };
 		D7E53B02225DDEBD003C8045 /* simple_beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7E53B01225DDEBD003C8045 /* simple_beep.mp3 */; };
 		D7E53B04225DEE7C003C8045 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E53B03225DEE7C003C8045 /* Utils.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D7D13720225246C600F36E82 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D7D1371F225246C600F36E82 /* MZTimerLabel.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7141A752981E06F7B883A44C /* libPods-Voya.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voya.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7D1371E225246C600F36E82 /* MZTimerLabel.framework in Frameworks */,
 				19E263340CF208BAEBE283D5 /* libPods-Voya.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +127,6 @@
 				D7452F6D2250FCE3002A8C80 /* Sources */,
 				D7452F6E2250FCE3002A8C80 /* Frameworks */,
 				D7452F6F2250FCE3002A8C80 /* Resources */,
-				D7D13720225246C600F36E82 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,11 +144,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = yaakov;
 				TargetAttributes = {
 					D7452F702250FCE3002A8C80 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -290,6 +273,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -315,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -351,6 +335,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -370,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -399,7 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunbit.wildcard.Voya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Sunbit Dev Wildcard";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -423,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunbit.wildcard.Voya;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Sunbit Dev Wildcard";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
