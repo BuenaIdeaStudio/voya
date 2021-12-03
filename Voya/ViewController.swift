@@ -178,12 +178,16 @@ extension ViewController {
 extension ViewController {
 
     func lampSwithToggle() {
-        if isLampEnabled == true {
-            blManager.sendOffCommand()
-            isLampEnabled = false
-        } else {
-            blManager.sendOnCommand()
-            isLampEnabled = true
-        }
+        isLampEnabled == true ? sendOfCommand() : sendOnCommand()
+    }
+    
+    private func sendOfCommand() {
+        blManager.sendOffCommand()
+        isLampEnabled = false
+    }
+    
+    private func sendOnCommand() {
+        blManager.sendOnCommand()
+        isLampEnabled = true
     }
 }
