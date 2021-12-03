@@ -33,8 +33,7 @@ class BluetoothManager: NSObject {
     //MARK:- send switch value to peripheral
     func sendSwitchValue(value: UInt8){
         guard let ledChar = LEDCharacteristic else { return }
-
-        let data = Data(bytes: [value])
+        let data = Data([value])
         connectedPeripheral?.writeValue(data, for: ledChar, type: .withResponse)
     }
 }
@@ -57,6 +56,8 @@ extension BluetoothManager:  CBCentralManagerDelegate {
             print("unknown")
         case .unsupported:
             print("unsupported")
+        @unknown default:
+            print("unknown")
         }
     }
 
